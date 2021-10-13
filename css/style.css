@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background:linear-gradient(to bottom right, #11be01, #001601);
+    background:linear-gradient(to bottom right, #11be01, #039baf);
   }
   
 header{
@@ -137,4 +137,23 @@ header{
 .apogered-gselected{
   color: #53b32b;
   margin-bottom: 20px;
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot_menu{
+  list-style: none;
+}
+
+.foot_menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.foot_menu a:hover{
+  color: green;
 }
