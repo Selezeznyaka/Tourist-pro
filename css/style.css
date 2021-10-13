@@ -1,23 +1,30 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1170px;
-    margin: auto;
-    height: 1000px;
+    background:linear-gradient(to bottom right, #11be01, #001601);
   }
   
+header{
+    max-width: 1170px;
+    margin: auto;
+    height: 130px;
+  }
+
   .topnav {
-    overflow: hidden;
     background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 975px;
   }
   
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    display: inline-block;
+    padding: 14px 7%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
   }
   
   .topnav a:hover {
@@ -32,4 +39,102 @@ body {
 
   .logo{
       float:left;
+}
+
+.tourist{
+  color: white;
+  height: 975px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliding-button {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid ;
+  border-image: linear-gradient(180deg, #00cc66 0%, #ccff33);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.sliding-button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #00cc66 0%, #ccff33);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.sliding-button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.sliding-button:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+.koguvcavis-varazdel {
+  display: flex;
+  padding: 38px 0;
+  background: white;
+  color: #2f2f2f;
+  text-align: center;
+  justify-content: center;
+  height: 600px;
+}
+.sestim-donials{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.sectionesag {
+  width: 400px;
+  height: 3px;
+  background: #498a2d;
+  margin: 23px auto;
+}
+
+.sagestim-lonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vemotau-vokusipol{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background-color: rgb(58, 177, 58);
+  padding: 28px;
+  border-radius: 20px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.gecedanam{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.apogered-gselected{
+  color: #53b32b;
+  margin-bottom: 20px;
 }

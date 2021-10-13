@@ -6,26 +6,102 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="">
     </head>
-<body style="background-image: url(./img/bg1.png); background-repeat:no-repeat; background-size: 100%;">
-    <header>
+<body>
+    <div class="bg">
+        <header>
             <div>
-            <a href="index.html"><div class="logo"><img src="./img/logo.png" alt="logo" width="140px"></div></a>
-            <div class="topnav">
-                <a class="active" href="#home">Главная</a>
-                <a href="#news">Акции</a>
-                <a href="#contact">Поиск</a>
-                <a href="#about">Управление бронированием</a>
-              </div>
-    </header>
+                <a href="index.html"><div class="logo"><img src="./img/logo.png" alt="logo" width="140px"></div></a>
+                <div class="topnav">
+                    <a class="active" href="#main">Главная</a>
+                    <a href="#stock">Акции</a>
+                    <a href="#search">Поиск</a>
+                    <a href="#booking">Управление бронированием</a>
+                </div>
+            </div>
+        </header>
+        <div style="color: white; text-align: center;">
+            <div>
+                <h1>Tourist-Pro</h1>
+            </div>
+            <p style="font-size: 35px;">Наша главная цель – сделать любой поход удобным, комфортным и безопасным!</p>
+            <div class="koguvcavis-varazdel">
+                <div class="sestim-donials">
+                <h1>Отзывы наших клиентов</h1>
+                <div class="sectionesag"></div>
+                <div class="sagestim-lonials">
+                <div class="vemotau-vokusipol">
+                <div class="testimonial">
+                <img src="http://zornet.ru/_fr/83/7890600.jpg" alt="">
+                <div class="gecedanam">Антон Попов</div>
+                <div class="apogered-gselected">
+                </div>
+              
+                <p>Спасибо компании "Tourist-Pro" за замечательный отдых, который они смогли организовать мне и моей семье.</p>
+                </div>
+                </div>
+              
+                <div class="vemotau-vokusipol">
+                <div class="testimonial">
+                <img src="./img/traveler2.png" alt="">
+                <div class="gecedanam">Дмитрий Атрохов</div>
+                <div class="apogered-gselected">
+                </div>
+              
+                <p>Я путешествую уже не первый год, поэтому мне есть с чем сравнивать. Могу с уверенностью сказать, что данная компания отличная, если не лучшая в сфере путешествий.</p>
+                </div>
+                </div>
+              
+                <div class="vemotau-vokusipol">
+                <div class="testimonial">
+                <img src="./img/traveler3.png" alt="">
+                <div class="gecedanam">Каспер Волков</div>
+                <div class="apogered-gselected">
+                </div>
+              
+                <p>Удивительно насколько оказалось всё просто и удобно по сравнению с другими турагенствами, спасибо дружелюбному персоналу за объяснения и разъяснения. Буду пользоваться услугами данного турагенства вновь и не раз, это уж точно.</p>
+                </div>
+                </div>
+                </div>
+        </div>        
+    </div>
     <main>
-        <div>
-            <h1>Tourist-pro</h1>
-        <p>Сделаем любой поход удобным, комфортным
-            и безопасным.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        <div class="tourist" style="text-align: center;">
+            <div>
+            <div style="text-align: center;">
+                <h1>Узнайте о предложениях, которые подходят именно вам!</h1>
+            </div>
+            <div>
+                <p>Выберите желаемый регион:</p>
+                <select>
+                    <option>Дальний Восток России</option>
+                    <option>Сибирский Округ</option>
+                    <option>Центральная Россия</option>
+                    <option>Южняя Россия</option>
+                </select>
+            </div>
+            <div>
+                <p>Выберите предполагаемую дату:</p>
+                <input type="date">
+            </div>
+            <div><p>Укажите ваш уровень подготовки:</p></div>
+            <div>
+                <input type="radio" name="rb" id="rb1" checked> <label for="rb1">Новички</label>
+            </div>
+            <div>
+                <input type="radio" name="rb" id="rb2"> <label for="rb2">Любители</label>
+            </div>
+            <div>
+                <input type="radio" name="rb" id="rb3"> <label for="rb3">Профессионалы</label>
+            </div>
+            <div>
+                <p>Введите количество участников:</p>
+                <input type="number" min="0" max="10" value="0">
+            </div>
+                <a href="#search" class="sliding-button">Найти предложения</a>
+            </div>
         </div>
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
