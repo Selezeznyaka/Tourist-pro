@@ -7,7 +7,6 @@
         <link rel="shortcut icon" href="">
     </head>
 <body>
-    <div class="bg">
         <header>
             <div>
                 <a href="index.html"><div class="logo"><img src="./img/logo.png" alt="logo" width="140px"></div></a>
@@ -19,31 +18,32 @@
                 </div>
             </div>
         </header>
+    <main>
         <div style="color: white; text-align: center;">
             <div>
                 <h1>Tourist-Pro</h1>
             </div>
             <p style="font-size: 35px;">Наша главная цель – сделать любой поход удобным, комфортным и безопасным!</p>
-            <div class="koguvcavis-varazdel">
-                <div class="sestim-donials">
+        </div>
+        <div class="review">
+            <div class="sestim-donials">
                 <h1>Отзывы наших клиентов</h1>
                 <div class="sectionesag"></div>
                 <div class="sagestim-lonials">
-                <div class="vemotau-vokusipol">
-                <div class="testimonial">
-                <img src="http://zornet.ru/_fr/83/7890600.jpg" alt="">
-                <div class="gecedanam">Антон Попов</div>
-                <div class="apogered-gselected">
-                </div>
+                    <div class="vemotau-vokusipol">
+                        <div class="testimonial">
+                    <img src="http://zornet.ru/_fr/83/7890600.jpg" alt="">
+                     <div class="author">Антон Попов</div>
+                    <div class="apogered-gselected"></div>
               
-                <p>Спасибо компании "Tourist-Pro" за замечательный отдых, который они смогли организовать мне и моей семье.</p>
-                </div>
-                </div>
+                    <p>Спасибо компании "Tourist-Pro" за замечательный отдых, который они смогли организовать мне и моей семье.</p>
+                        </div>
+                    </div>
               
                 <div class="vemotau-vokusipol">
                 <div class="testimonial">
                 <img src="./img/traveler2.png" alt="">
-                <div class="gecedanam">Дмитрий Атрохов</div>
+                <div class="author">Дмитрий Антонов</div>
                 <div class="apogered-gselected">
                 </div>
               
@@ -54,7 +54,7 @@
                 <div class="vemotau-vokusipol">
                 <div class="testimonial">
                 <img src="./img/traveler3.png" alt="">
-                <div class="gecedanam">Каспер Волков</div>
+                <div class="author">Андрей Волков</div>
                 <div class="apogered-gselected">
                 </div>
               
@@ -62,9 +62,8 @@
                 </div>
                 </div>
                 </div>
-        </div>        
-    </div>
-    <main>
+            </div>        
+        </div>
         <div class="tourist" style="text-align: center;">
             <div>
             <div style="text-align: center;">
@@ -83,62 +82,93 @@
                 <p>Выберите предполагаемую дату:</p>
                 <input type="date">
             </div>
-            <div><p>Укажите ваш уровень подготовки:</p></div>
-            <div>
-                <input type="radio" name="rb" id="rb1" checked> <label for="rb1">Новички</label>
-            </div>
-            <div>
-                <input type="radio" name="rb" id="rb2"> <label for="rb2">Любители</label>
-            </div>
-            <div>
-                <input type="radio" name="rb" id="rb3"> <label for="rb3">Профессионалы</label>
-            </div>
-            <div>
-                <p>Введите количество участников:</p>
+                <div>
+                    <div><p>Укажите ваш уровень подготовки:</p></div>
+                <div style="text-align: left; margin-left: 400px;">    
+                    <div class="form_radio">
+                        <input type="radio" name="rb" id="rb1" checked> <label for="rb1">Новички</label>
+                    </div>
+                    <div class="form_radio">
+                        <input type="radio" name="rb" id="rb2"> <label for="rb2">Любители</label>
+                    </div>
+                    <div class="form_radio">
+                        <input type="radio" name="rb" id="rb3"> <label for="rb3">Профессионалы</label>
+                    </div>
+                </div>
+                <p>Введите количество участников (0-10):</p>
                 <input type="number" min="0" max="10" value="0">
-            </div>
+                </div>
                 <a href="#search" class="sliding-button">Найти предложения</a>
             </div>
         </div>
+        <div style="background: white;">
+            <p style="text-align: center; padding-top: 25px; margin: 0px; font-size: 35px;">Акции</p>
+            <div class="stock">
+                <div>
+                    <img style="height: 200px;" src="./img/stock1.png" alt="bday">
+                    <p class="stock_top">Скидки ко дню рождения</p>
+                    <p>Наша компания предоставляет скидку в 15%<br> в честь  дней рождения наших любимых клиентов.</p>
+                    <a href="">Подробнее...</a>
+                </div>
+                <div>
+                    <img style="height: 200px;" src="./img/stock2.png" alt="FarEast">
+                    <p class="stock_top">Скидка в регион "Дальний Восток"</p>
+                    <p>В летний период путешествие на Дальний Восток<br> обойдётся дешевле, благодаря скидке в 10%.</p>
+                    <a href="">Подробнее...</a>
+                </div>
+                <div>
+                    <img style="height: 200px;" src="./img/stock3.png" alt="smth">
+                    <p class="stock_top">Скидки постоянным клиентам!</p>
+                    <p>Мы закончили работу над нашей системой лояльности<br> и готовы представить её нашим дорогим клиентам.</p>
+                    <a href="">Подробнее...</a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <div style="padding: 10px;">
+                    <input placeholder="Введите свою почту" type="email">
+                </div>
+                <button style="margin-bottom: 20px;" class="button subscribe">Подписаться на рассылку</button>
+            </div>
+        </div>
     </main>
+    
     <footer>
-    <div style="max-width: 1170px; margin: auto; display: flex;">
-        <div>
-            <a href="index.html"><img style="width: 170px;" src="./img/logo.png" alt="logo_footer"></a>
+        <div class="foot">
+            <div>
+                <a href="index.html"><img style="width: 170px;" src="./img/logo.png" alt="logo_footer"></a>
+            </div>
+            <div>
+                <h1>Контактные данные</h1>
+                <ul style="list-style-type: none; text-align: left;">
+                    <li>
+                        <p>Телефон: 8 (800) 555-33-10</p>
+                    </li>
+                    <li>
+                        <p>E-mail (тех. поддержка): Tourist_pro@google.com</p>
+                    </li>
+                    <li>
+                        <p>г. Москва ул. Декабрьская 49, офис на 2 этаже</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1 style="padding-left: 50px;">Меню</h1>
+                <ul class="foot_menu">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#stock">Акции</a>
+                    </li>
+                    <li>
+                        <a href="#search">Поиск</a>
+                    </li>
+                    <li>
+                        <a href="#booking">Управление бронированием</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h1>Контактные данные</h1>
-            <ul style="list-style-type: none; text-align: left;">
-                <li>
-                    <p>Телефон: 8 (800) 555-33-10</p>
-                </li>
-                <li>
-                    <p>E-mail (тех. поддержка): Tourist_pro@google.com</p>
-                </li>
-                <li>
-                    <p>г. Москва ул. Декабрьская 49, офис на 2 этаже</p>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h1 style="padding-left: 50px;">Меню</h1>
-            <ul class="foot_menu">
-                <li>
-                    <a href="index.html">Главная</a>
-                </li>
-                <li>
-                    <a href="#stock">Акции</a>
-                </li>
-                <li>
-                    <a href="#search">Поиск</a>
-                </li>
-                <li>
-                    <a href="#booking">Управление бронированием</a>
-                </li>
-            </ul>
-        </div>
-    </div>
     </footer>
-
 </body>
 </html>
