@@ -8,7 +8,7 @@ body {
   }
   
 header{
-    max-width: 1170px;
+    max-width: 1115px;
     margin: auto;
     height: 130px;
   }
@@ -36,7 +36,7 @@ header{
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgb(51, 145, 54);
     color: white;
   }
 
@@ -46,10 +46,10 @@ header{
 
 .tourist{
   color: white;
-  height: 975px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px;
 }
 
 .sliding-button {
@@ -100,6 +100,11 @@ header{
   text-align: center;
   justify-content: center;
 }
+
+.review p{
+  text-align: left;
+}
+
 .sestim-donials{
   max-width: 1200px;
   margin: auto;
@@ -196,11 +201,10 @@ header{
 footer{
   background-color: black;
   display: flex;
-  justify-content: space-evenly;
 }
 
 .foot{
-  max-width: 1170px;
+  max-width: 1115px;
   margin: auto;
   display: flex;
   color: white;
@@ -217,11 +221,27 @@ footer{
 }
 
 .foot_menu a:hover{
-  color: green;
+  color: #4CAF50
+}
+
+.to_up{
+  text-decoration: none;
+  color: white;
+}
+
+.to_up:hover{
+  color: #4CAF50;
 }
 
 footer ul p{
   margin: 0px;
+}
+
+.line{
+  height: 150px;
+  width: 3px;
+  background-color: rgb(206, 219, 199);
+  margin: 15px;
 }
 
 input{
@@ -234,4 +254,8 @@ input{
 select{
   padding:10px;
   border-radius:10px;
+}
+
+ul{
+  padding-inline-start: 0px;
 }
